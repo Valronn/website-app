@@ -344,7 +344,7 @@ export default class App extends React.Component {
         <section id='contacts'>
           <div className='container'>
             <div className='row'>
-              <h1 className='display-3 newTitle mx-auto text-center'>СВЯЗАТЬСЯ {" "} СО МНОЙ</h1>
+              <h1 className='display-3 newTitle mx-auto text-center'>СВЯЗАТЬСЯ {" "} СО {" "} МНОЙ</h1>
               <div className='col-4 col-lg-4 mx-auto my-4 d-none d-lg-block'>
                 <img
                   src="https://i.ibb.co/ScG27QY/img-9.png"
