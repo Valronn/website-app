@@ -9,7 +9,7 @@ html{
   --mainWhite: #f2f1ed;
   --mainTopNavbar1:#CFF27E;
 }
-body{
+.body{
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://i.ibb.co/TmKpzsQ/yuri-bodrikhin-d-XLnq8z8x4k-unsplash.jpg) no-repeat center center fixed !important;
 }
 #top-icons{
