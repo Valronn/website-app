@@ -1,11 +1,6 @@
 html{
   scroll-behavior: smooth !important;
 }
-html, body. div{
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100% !important;
-}
 :root {
   --mainPink: #d96491;
   --mainBlue: #65cbf1;
