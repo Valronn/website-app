@@ -111,7 +111,7 @@ export default class App extends React.Component {
                   Связаться
                 </a>
               </div>
-              <div id="carouselExampleControls" className="carousel slide d-none d-sm-block d-md-none col-sm-12 col-xs-12" data-ride="carousel">
+              <div id="carouselExampleControls" className="carousel slide d-none d-md-block d-lg-none col-sm-12 col-xs-12" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src="https://i.ibb.co/wdZ2hSz/img-1.jpg" class="d-block w-100" alt="..."/>
