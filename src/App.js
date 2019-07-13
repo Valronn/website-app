@@ -12,7 +12,7 @@ export default class App extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className='body'>
         <div className="container-fluid info p-3" id="top-icons">
           <div className="row">
             <div className="col d-flex justify-content-between align-items-baseline flex-wrap">
