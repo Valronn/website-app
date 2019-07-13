@@ -281,7 +281,7 @@ export default class App extends React.Component {
           </div>
         </section>
         <section id="payment">
-          <h1 className="display-3 text-center oldTitle">СТОИМОСТЬ РАБОТЫ:</h1>
+          <h1 className="text-center oldTitle">СТОИМОСТЬ РАБОТЫ:</h1>
           <h1 className="text-center oldTitle text-uppercase">
             Чтобы определить стоимость работы ты должен:
           </h1>
