@@ -37,7 +37,7 @@ export default class App extends React.Component {
           <div className="container">
             <div className="row height-90 align-items-center justify-content-center">
               <div className="col">
-                <div className="banner col-sm-12 hidden-xs text-center">
+                <div className="banner col-sm-12 col-xs-12 hidden-xs text-center">
                   <h1 className="display-1 text-capitalize">
                     <small>andrdrims</small>{" "}
                     <strong className="primary-color">Tattoo</strong>
@@ -91,7 +91,7 @@ export default class App extends React.Component {
         <section id="aboutMe" className='py-5'>
           <div className="container">
             <div className="row">
-              <div className="col-md-6 my-4">
+              <div className="col-md-6 col-xs-12 my-4">
                 <h1 className="text-uppercase display-3 newTitle">обо мне</h1>
                 <h2 className="newTitle">
                   Привет, если ты на моей странице, это значит что ты решился
@@ -111,7 +111,7 @@ export default class App extends React.Component {
                   Связаться
                 </a>
               </div>
-              <div id="carouselExampleControls" className="carousel slide d-none d-sm-block d-lg-none col-sm-12" data-ride="carousel">
+              <div id="carouselExampleControls" className="carousel slide d-none d-sm-block d-lg-none col-sm-12 col-xs-12" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src="https://i.ibb.co/wdZ2hSz/img-1.jpg" class="d-block w-100" alt="..."/>
@@ -193,7 +193,7 @@ export default class App extends React.Component {
           </h1>
           <div className="container my-5">
             <div className="row parent-container">
-              <div className="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+              <div className="col-10 mx-auto col-sm-12 col-xs-12 col-lg-4 my-3">
                 <div className="item-container">
                   <img
                     src="https://i.ibb.co/y6dVvHy/blackwork.jpg"
@@ -207,7 +207,7 @@ export default class App extends React.Component {
                   </a>
                 </div>
               </div>
-              <div className="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+              <div className="col-10 mx-auto col-sm-12 col-xs-12 col-lg-4 my-3">
                 <div className="item-container">
                   <img
                     src="https://i.ibb.co/jZdrMGR/dotwork.jpg"
@@ -221,7 +221,7 @@ export default class App extends React.Component {
                   </a>
                 </div>
               </div>
-              <div className="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+              <div className="col-10 mx-auto col-sm-12 col-xs-12 col-lg-4 my-3">
                 <div className="item-container">
                   <img
                     src="https://i.ibb.co/zZCcrrD/gravura.jpg"
@@ -235,7 +235,7 @@ export default class App extends React.Component {
                   </a>
                 </div>
               </div>
-              <div className="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+              <div className="col-10 mx-auto col-sm-12 col-xs-12 col-lg-4 my-3">
                 <div className="item-container">
                   <img
                     src="https://i.ibb.co/J74g1Nw/old-school.jpg"
@@ -249,7 +249,7 @@ export default class App extends React.Component {
                   </a>
                 </div>
               </div>
-              <div className="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+              <div className="col-10 mx-auto col-sm-12 col-xs-12 col-lg-4 my-3">
                 <div className="item-container">
                   <img
                     src="https://i.ibb.co/0sh1B5F/tradishnl.jpg"
@@ -263,7 +263,7 @@ export default class App extends React.Component {
                   </a>
                 </div>
               </div>
-              <div className="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+              <div className="col-10 mx-auto col-sm-12 col-xs-12 col-lg-4 my-3">
                 <div className="item-container">
                   <img
                     src="https://i.ibb.co/4VmR1xX/ornamental.jpg"
@@ -286,7 +286,7 @@ export default class App extends React.Component {
             Чтобы определить стоимость работы ты должен:
           </h1>
           <div className="container">
-            <div className="row col-md-12 col-sm-12 col-xs-12">
+            <div className="row col-md-12 col-sm-12  col-xs-12">
               <div className="col-lg-6">
                 <div className="single-item d-flex justify-content-between my-3 py-3">
                   <div className="single-item-text my-3">
@@ -345,7 +345,7 @@ export default class App extends React.Component {
           <div className='container'>
             <div className='row'>
               <h1 className='display-3 newTitle mx-auto'>СВЯЗАТЬСЯ СО МНОЙ</h1>
-              <div className='col-sm-12 col-lg-4 mx-auto my-4 d-none d-lg-block'>
+              <div className='col-sm-12 col-xs-12 col-lg-4 mx-auto my-4 d-none d-lg-block'>
                 <img
                   src="https://i.ibb.co/ScG27QY/img-9.png"
                   alt="Tatto-img-9"
@@ -362,7 +362,7 @@ export default class App extends React.Component {
                   className="img-11 img-thumbnail about-image"
                 />
               </div>
-              <div className='col-sm-12 col-lg-4 mx-auto my-4'>
+              <div className='col-sm-12 col-xs-12 col-lg-4 mx-auto my-4'>
                 <div className='card'>
                   <img src='https://i.ibb.co/YbfJXvb/about-s.png' className='card-img-top' alt='Myself'/>
                   <div className='card-body'>
@@ -387,7 +387,7 @@ export default class App extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className='col-sm-12 col-lg-4 mx-auto my-4 d-none d-lg-block'>
+                <div className='col-sm-12 col-xs-12 col-lg-4 mx-auto my-4 d-none d-lg-block'>
               <img
                   src="https://i.ibb.co/dL2qtk7/img-6.png"
                   alt="Tatto-img-6"
