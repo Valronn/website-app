@@ -362,7 +362,7 @@ export default class App extends React.Component {
                   className="img-11 img-thumbnail about-image"
                 />
               </div>
-              <div className='col-sm-12 col-xs-12 col-lg-4 mx-auto my-4'>
+              <div className='col-4 col-lg-4 mx-auto my-4'>
                 <div className='card'>
                   <img src='https://i.ibb.co/YbfJXvb/about-s.png' className='card-img-top' alt='Myself'/>
                   <div className='card-body'>
@@ -387,7 +387,7 @@ export default class App extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className='col-sm-12 col-xs-12 col-lg-4 mx-auto my-4 d-none d-lg-block'>
+                <div className='col-4 col-lg-4 mx-auto my-4 d-none d-lg-block'>
               <img
                   src="https://i.ibb.co/dL2qtk7/img-6.png"
                   alt="Tatto-img-6"
