@@ -38,7 +38,7 @@ export default class App extends React.Component {
             <div className="row height-90 align-items-center justify-content-center">
               <div className="col">
                 <div className="banner col-sm-12 col-xs-12 hidden-xs text-center">
-                  <h1 className="display-1 text-capitalize">
+                  <h1 className="display-2 text-capitalize">
                     <small>andrdrims</small>{" "}
                     <strong className="primary-color">Tattoo</strong>
                   </h1>
