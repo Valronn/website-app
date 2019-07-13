@@ -254,7 +254,7 @@ html{
   color:var(--mainBrightPink);
 }
 #payment{
-  min-height:100vh;
+  background-size:cover;
   background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
    url(https://i.ibb.co/j8953QM/background.png) no-repeat center center fixed;
 }
