@@ -350,3 +350,6 @@ body {
 .fa-vk{
   color:var(--mainBrightPink);
 }
+.contact-title{
+  font-size:5rem !important;
+}
