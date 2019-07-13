@@ -10,7 +10,15 @@ html{
   --mainTopNavbar1:#CFF27E;
 }
 .body{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://i.ibb.co/TmKpzsQ/yuri-bodrikhin-d-XLnq8z8x4k-unsplash.jpg) no-repeat center center fixed !important;
+  background-size: cover !important;
+  height: 100%;
+  width: 100%;
 }
 #top-icons{
   background-color:var(--mainTopNavbar1) !important;
