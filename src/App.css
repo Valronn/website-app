@@ -305,21 +305,21 @@ body {
   top:32%;
 }
 .img-6{
-  top:41%;
+  top:41% !important;
 }
 .img-7{
-  top:77%;
+  top:77% !important;
 }
 .img-9{
-  top:40%;
-  left:57%;
+  top:40% !important;
+  left:57% !important;
 }
 .img-10{
-  top:76%;
-  left:57%;
+  top:76% !important;
+  left:57% !important;
 }
 .img-11{
-  left:57%;
+  left:57% !important;
 }
 .about-image:hover{
   position:absolute;
