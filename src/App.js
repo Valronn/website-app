@@ -394,7 +394,7 @@ export default class App extends React.Component {
                   className="img-6 img-thumbnail about-image"
                 />
                 <img
-                  src="https://i.ibb.co/R63NRjf/img-7.png"
+                  src="https://i.ibb.co/B4smmh6/img-4.jpg"
                   alt="Tatto-img-7"
                   className="img-7 img-thumbnail about-image"
                 />
