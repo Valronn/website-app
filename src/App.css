@@ -10,7 +10,7 @@ html{
   --mainTopNavbar1:#CFF27E;
 }
 body{
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://i.ibb.co/TmKpzsQ/yuri-bodrikhin-d-XLnq8z8x4k-unsplash.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://i.ibb.co/TmKpzsQ/yuri-bodrikhin-d-XLnq8z8x4k-unsplash.jpg) no-repeat center center fixed !important;
 }
 #top-icons{
   background-color:var(--mainTopNavbar1) !important;
