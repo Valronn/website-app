@@ -1,33 +1,349 @@
-.App {
-  text-align: center;
+html{
+  scroll-behavior: smooth !important;
+}
+:root {
+  --mainPink: #d96491;
+  --mainBlue: #65cbf1;
+  --mainDarkPink: #b0085c;
+  --mainBrightPink: #ff1760;
+  --mainWhite: #f2f1ed;
+  --mainTopNavbar1:#CFF27E;
+}
+body{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://i.ibb.co/TmKpzsQ/yuri-bodrikhin-d-XLnq8z8x4k-unsplash.jpg) no-repeat center center fixed;
+}
+#top-icons{
+  background-color:var(--mainTopNavbar1) !important;
+}
+#top-icons a{
+  font-size:35px;
+  text-decoration: none;
+  color:var(--mainBrightPink);
+  transition: color 1s ease-in-out;
+  text-shadow: black 0.5px 0 2px;
+}
+#top-icons a:hover{
+  color:var(--mainBlue);
+}
+.info h1{
+  word-spacing:0.6rem;
+  text-shadow: black 1px 0 1px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#top-icons h1{
+  font-family: 'Carter One', cursive;
+  color:var(--mainBrightPink);
+  transition: color 0.5s ease-in-out;
+}
+#top-icons h1:hover{
+  color:var(--mainBlue);
+}
+#header{
+  min-height:calc(100vh - 94px);
+  font-family: 'Carter One', cursive;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://i.ibb.co/j8953QM/background.png), no-repeat, center, center,right;
+  background-size:cover;
+  background-attachment: fixed;
+}
+#header small{
+  color:var(--mainBlue);
+  text-shadow: black 1px 0 10px;
+}
+.primary-color{
+  color:var(--mainBrightPink) !important;
+  text-shadow: black 1px 0 1px;
+  font-family: 'Carter One', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#header h1{
+  border-top:10px dotted var(--mainBrightPink) !important;
+  border-bottom:10px dotted var(--mainBrightPink) !important;
+  animation: fromLeft;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
+  opacity:0;
+  animation-fill-mode:forwards;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes fromLeft{
+  0%{
+    transform:translateX(-100px);
+    opacity:0;
   }
-  to {
-    transform: rotate(360deg);
+  50%{
+    transform:translateX(30px);
   }
+  100%{
+    transform:translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fromRight{
+  0%{
+    transform:translateX(100px);
+    opacity:0;
+  }
+  50%{
+    transform:translateX(-30px);
+  }
+  100%{
+    transform:translateX(0);
+    opacity: 1;
+  }
+}
+.navbar{
+  background-color:var(--mainTopNavbar1);
+  padding:20px 20px;
+  transition:all 1s ease;
+}
+.navbar-background{
+  padding:5px 20px;
+}
+
+.navbar-brand{
+  font-size:30px;
+  transition: all 1s ease;
+}
+.navbar-brand:hover{
+  color:var(--mainBlue) !important;
+}
+.nav-link{
+  font-family: 'Marmelad', sans-serif !important;
+  color:#242424;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-size:23px;
+}
+.nav-link:hover{
+  color:var(--mainBrightPink);
+}
+.toggler-btn{
+  border: 2px solid var(--mainBrightPink);
+  padding:5px;
+  transition: all 2s ease;
+}
+.bar{
+  width:35px;
+  height:3px;
+  margin:5px;
+  background:var(--mainBrightPink);
+  transition: all 0.5s ease;
+}
+.change .bar1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .bar2{
+  opacity:0;
+}
+.change .bar3{
+  transform: rotate(45deg) translate(-5px, -6.5px);
+}
+.about-btn{
+  animation:fromRight;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
+  opacity:0;
+  animation-fill-mode:forwards;
+}
+
+.height-90{
+  min-height: calc(100vh - 94px);
+}
+.main-btn{
+  font-family: 'Marmelad', sans-serif !important;
+  color:var(--mainBrightPink) !important;
+  font-size:2rem !important;
+  border:3px solid var(--mainBrightPink) !important;
+  transition: all 1s ease-in-out !important;
+  box-shadow:0.5px 0.5px 3px 0.5px black;
+  text-shadow: black 0px 0px 10px !important;
+  width:200px;
+}
+
+.main-btn:hover{
+  color:var(--mainBlue) !important;
+  border:3px solid var(--mainBlue) !important;
+}
+
+.header-link{
+  color:var(--mainBrightPink);
+  display:inline-block;
+  position:absolute;
+  bottom:5%;
+  left:50%;
+  background-color:whitesmoke !important;
+  border-radius:13px !important;
+  transition:all 1s ease-in-out !important;
+  text-shadow: black 1px 0 10px !important;
+  box-shadow:0.5px 0.5px 3px 0.5px black;
+  animation:fromBottom;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+.header-link:hover{
+  color:var(--mainBlue) !important;
+}
+@keyframes fromBottom{
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+#about{
+  font-family: 'Marmelad', sans-serif !important;
+}
+.newTitle{
+  color:var(--mainBrightPink);
+  text-shadow:var(--mainBrightPink) 1px 0 20px;
+  font-family: 'Marmelad', sans-serif !important;
+}
+.item-container{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(rgb(0,0,0), rgb(0,0,0));
+  transition: all 1.5s ease-in-out;
+}
+
+.item-img{
+  transition: all 1.5s ease;
+}
+
+.item-container:hover .item-img{
+  transform:scale(1.2);
+  opacity:0.4;
+}
+
+.item-link{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:var(--mainBrightPink);
+  border-top:3px solid var(--mainBrightPink);
+  border-bottom:3px solid var(--mainBrightPink);
+  font-size:2rem;
+  transition:all 2s ease;
+  opacity:0;
+  text-shadow: var(--mainBrightPink) 0px 0 10px;
+  cursor:default;
+}
+.item-container:hover .item-link{
+  opacity:1;
+}
+.item-link:hover{
+  color:var(--mainBlue);
+  border-top:3px solid var(--mainBlue);
+  border-bottom:3px solid var(--mainBlue);
+  text-shadow: var(--mainBlue) 0px 0 10px;
+  cursor:default;
+}
+.item-container:hover{
+  outline: 10px solid var(--mainBrightPink);
+  outline-offset:0.8rem;
+}
+
+.oldTitle{
+  text-shadow: black 1px 0 1px;
+  font-family: 'Marmelad', sans-serif !important;
+  color:var(--mainBrightPink);
+}
+#payment{
+  min-height:100vh;
+  background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+   url(https://i.ibb.co/j8953QM/background.png) no-repeat center center fixed;
+}
+
+.single-item{
+  border: 3px solid var(--mainBrightPink);
+  text-shadow: black 1px 0 1px;
+}
+.about-text{
+  text-shadow:black 1px 0 20px;
+  font-family: 'Marmelad', sans-serif !important;
+}
+
+.about-pictures{
+  position:relative !important;
+}
+.about-image{
+  position:absolute !important;
+  width:150px;
+  max-height:150px;
+  transition: all 2s ease;
+  opacity:0.9s;
+}
+
+.img-1{
+  left:0%;
+  top:10%;
+}
+.img-2{
+  left:20%;
+  top:20%;
+  z-index:10 !important;
+}
+.img-3{
+  left:40%;
+  top:32%;
+  z-index:9 !important;
+}
+.img-4{
+  left:40%;
+  top:10%;
+}
+.img-5{
+  left:0%;
+  top:32%;
+}
+.img-6{
+  top:41%;
+}
+.img-7{
+  top:77%;
+}
+.img-9{
+  top:40%;
+  left:57%;
+}
+.img-10{
+  top:76%;
+  left:57%;
+}
+.img-11{
+  left:57%;
+}
+.about-image:hover{
+  position:absolute;
+  outline: 10px solid var(--mainBrightPink);
+  outline-offset:0.8rem;
+  transform:scale(1.3) rotate(20deg);
+  z-index:30;
+  opacity:1;
+}
+
+.about-pictures:hover .about-image:not(:hover){
+  opacity:0.5;
+}
+
+.sc-icons{
+  font-size:35px;
+  color:var(--mainBrightPink);
+  text-shadow: var(--mainBrightPink) 1px 0 1px;
+}
+.card{
+  font-family: 'Marmelad', sans-serif !important;
+}
+.fa-instagram{
+  color:var(--mainBrightPink);
+}
+.fa-facebook{
+  color:var(--mainBrightPink);
+}
+.fa-vk{
+  color:var(--mainBrightPink);
 }
