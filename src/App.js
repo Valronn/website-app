@@ -382,7 +382,7 @@ export default class App extends React.Component {
                 </a><br/>
                 
                   <i className="fab fa-viber mb-4" />
-                  <i className="fab fa-telegram" /><br/>0978803811
+                  <i className="fab fa-telegram" />0978803811
                   </div>
                     </div>
                   </div>
