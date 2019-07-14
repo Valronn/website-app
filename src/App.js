@@ -17,7 +17,7 @@ export default class App extends React.Component {
           <div className="row">
             <div className="col d-flex justify-content-between align-items-baseline flex-wrap">
               <div className="info-icons p-2 ">
-                <a href="https://www.instagram.com/andrdrims/?hl=ru">
+                <a href="https://www.instagram.com/andrdrims_nik_tattoo/?hl=ru">
                   <i className="fab fa-instagram mx-1" />
                 </a>
                 <a href="https://www.facebook.com/NikoHomeTattooAndrdrims/">
@@ -370,7 +370,7 @@ export default class App extends React.Component {
                       <h1 className='text-center'>Андрей Шутов</h1>
                     </div>
                     <div className='card-footer sc-icons'>
-                    <a href="https://www.instagram.com/andrdrims/?hl=ru">
+                    <a href="https://www.instagram.com/andrdrims_nik_tattoo/?hl=ru">
                   <i className="fab fa-instagram  mx-1 mb-3" />
                 </a>
 <a href="https://www.facebook.com/NikoHomeTattooAndrdrims/">
@@ -380,8 +380,7 @@ export default class App extends React.Component {
                   <i className="fab fa-vk mx-2" />
                 </a><br/>
                 
-                  <i className="fab fa-viber" /><br/>0978803811
-                <br/>
+                  <i className="fab fa-viber mb-4" />
                   <i className="fab fa-telegram" /><br/>0978803811
                   </div>
                     </div>
