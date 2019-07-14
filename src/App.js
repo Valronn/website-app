@@ -369,6 +369,7 @@ export default class App extends React.Component {
                     <div className='card-title'>
                       <h1 className='text-center'>Андрей Шутов</h1>
                     </div>
+                    <h6 className='text-muted'>для быстрого перехода нажмите на иконки</h6>
                     <div className='card-footer sc-icons'>
                     <a href="https://www.instagram.com/andrdrims_nik_tattoo/?hl=ru">
                   <i className="fab fa-instagram  mx-1 mb-3" />
