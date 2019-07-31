@@ -129,22 +129,22 @@ export default class App extends React.Component {
       <img src="https://i.ibb.co/mvftPZd/img-5.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.ibb.co/dL2qtk7/img-6.png" class="d-block w-100" alt="..."/>
+      <img src="https://i.ibb.co/gvCLQ3H/img-6.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.ibb.co/R63NRjf/img-7.png" class="d-block w-100" alt="..."/>
+      <img src="https://i.ibb.co/q0xR6c3/img-7.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.ibb.co/qC7Gy5n/img-8.png" class="d-block w-100" alt="..."/>
+      <img src="https://i.ibb.co/Mc8vdfc/img-8.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.ibb.co/ScG27QY/img-9.png" class="d-block w-100" alt="..."/>
+      <img src="https://i.ibb.co/64RhgR0/img-9.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.ibb.co/4gsg8T5/img-10.png" class="d-block w-100" alt="..."/>
+      <img src="https://i.ibb.co/zhdYgGk/img-10.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.ibb.co/92zT6h1/img-11.png" class="d-block w-100" alt="..."/>
+      <img src="https://i.ibb.co/q0xR6c3/img-7.jpg" class="d-block w-100" alt="..."/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -347,24 +347,24 @@ export default class App extends React.Component {
             <div className='row'>
               <div className='col-4 col-lg-4 mx-auto my-4 d-none d-lg-block'>
                 <img
-                  src="https://i.ibb.co/ScG27QY/img-9.png"
+                  src="https://i.ibb.co/64RhgR0/img-9.jpg"
                   alt="Tatto-img-9"
                   className="img-9 img-thumbnail about-image"
                 />
                 <img
-                  src="https://i.ibb.co/4gsg8T5/img-10.png"
+                  src="https://i.ibb.co/zhdYgGk/img-10.jpg"
                   alt="Tatto-img-10"
                   className="img-10 img-thumbnail about-image"
                 />
                 <img
-                  src="https://i.ibb.co/92zT6h1/img-11.png"
+                  src="https://i.ibb.co/q0xR6c3/img-7.jpg"
                   alt="Tatto-img-11"
                   className="img-11 img-thumbnail about-image"
                 />
               </div>
               <div className='col-sm-12 col-xs-12 col-lg-4 mx-auto my-4'>
                 <div className='card'>
-                  <img src='https://i.ibb.co/YbfJXvb/about-s.png' className='card-img-top' alt='Myself'/>
+                  <img src='https://i.ibb.co/4YZyt4V/about-s.jpg' className='card-img-top' alt='Myself'/>
                   <div className='card-body'>
                     <div className='card-title'>
                       <h1 className='text-center'>Андрей Шутов</h1>
@@ -389,7 +389,7 @@ export default class App extends React.Component {
                 </div>
                 <div className='col-4 col-lg-4 mx-auto my-4 d-none d-lg-block'>
               <img
-                  src="https://i.ibb.co/dL2qtk7/img-6.png"
+                  src="https://i.ibb.co/gvCLQ3H/img-6.jpg"
                   alt="Tatto-img-6"
                   className="img-6 img-thumbnail about-image"
                 />
@@ -399,7 +399,7 @@ export default class App extends React.Component {
                   className="img-7 img-thumbnail about-image"
                 />
                 <img
-                  src="https://i.ibb.co/qC7Gy5n/img-8.png"
+                  src="https://i.ibb.co/Mc8vdfc/img-8.jpg"
                   alt="Tatto-img-8"
                   className="img-8 img-thumbnail about-image"
                 />
